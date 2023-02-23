@@ -8,11 +8,27 @@ Tray application for quickly copying v4 UUIDs. Behind the scenes, it uses the `c
   - Option to disable this feature
 - Very few dependencies, lightweight
 
+## How to use
+
+Before I get to building/packaging this, it can be used in dev mode...
+
+```shell
+# Clone the repository
+git clone git@github.com:bencomeau/quick-uuid.git
+
+# Install dependencies
+cd quick-uuid && yarn
+
+# Start it (this is dev mode only right now)
+yarn start
+```
+
 ## Built With
 - Uses Electron under the hood
 - menubar for quicker functionality (https://www.npmjs.com/package/menubar)
 
 ## Ideas to try (a roadmap of sorts)
+- Bundle for production/download/signing/etc...seems like a good next step
 - Would be nice to drop `menubar` since it only needs the tray + context menu
 - Add a preferences window so I can:
   - Move the clipboard reset options to it
