@@ -1,0 +1,17 @@
+{
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "menubar": "^9.2.3"
+  },
+  "devDependencies": {
+    "electron": "^22.2.0",
+    "electron-reloader": "^1.2.3",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  }
+}
