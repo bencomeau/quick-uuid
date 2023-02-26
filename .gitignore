@@ -46,3 +46,7 @@ spec/.hash
 patches/mtime-cache.json
 
 spec/fixtures/logo.png
+
+# Packaging
+out/
+*.p8

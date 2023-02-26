@@ -1,13 +1,24 @@
 {
+  "name": "quick-uuid",
   "main": "main.js",
+  "version": "0.1.0",
   "scripts": {
-    "start": "electron .",
-    "lint": "eslint ."
+    "start": "electron-forge start",
+    "lint": "eslint .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
     "menubar": "^9.2.3"
   },
   "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "dotenv": "^16.0.3",
     "electron": "^22.2.0",
     "electron-reloader": "^1.2.3",
     "eslint": "^7.32.0 || ^8.2.0",

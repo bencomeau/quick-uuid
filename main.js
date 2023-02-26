@@ -1,10 +1,9 @@
-try {
-  // eslint-disable-next-line global-require
-  require('electron-reloader')(module);
-} catch (e) {
-  console.error(e);
-}
-
+// try {
+//   // eslint-disable-next-line global-require
+//   require('electron-reloader')(module);
+// } catch (e) {
+//   console.error(e);
+// }
 const { Menu, Tray, app } = require('electron');
 const path = require('path');
 const { menubar } = require('menubar');
