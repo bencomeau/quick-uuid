@@ -45,11 +45,9 @@ app.on('ready', () => {
       // with a few other options...like setting a default copy option...
       label: 'Reset clipboard after',
       type: 'submenu',
-      click: () => {
-        console.log('click!');
-      },
+      click: () => {},
       submenu: [
-        ...resetClipboardSecondsOptions.map(seconds => ({
+        ...resetClipboardSecondsOptions.map((seconds) => ({
           label: `${seconds} seconds`,
           type: 'radio',
           click: () => writeData('resetClipboardSeconds', seconds),
